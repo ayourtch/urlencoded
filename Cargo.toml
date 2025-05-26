@@ -12,7 +12,7 @@ license = "MIT"
 keywords = ["iron", "web", "url", "encoding"]
 
 [dependencies]
-iron = " >= 0.5, <0.7"
+iron = { git = "https://github.com/ayourtch/iron/" }
 url = "1.6"
-plugin = "0.2.6"
-bodyparser = "0.8"
+plugin = { git = "https://github.com/ayourtch/rust-plugin/" }
+bodyparser = { git = "https://github.com/ayourtch/body-parser" }
